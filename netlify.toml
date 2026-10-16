@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# ضع في إعدادات Netlify (Environment variables):
+# DATABASE_URL = رابط PostgreSQL من Neon أو Supabase (مع ssl)
+# ADMIN_PASSWORD = اختياري
+# AUTH_SECRET = اختياري
